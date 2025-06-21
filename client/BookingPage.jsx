@@ -7,7 +7,7 @@ import { Alert, AlertDescription } from '@/components/ui/alert';
 import { Badge } from '@/components/ui/badge';
 import { Plus, Minus, Calendar, Clock, Users, CheckCircle } from 'lucide-react';
 
-const API_BASE_URL = 'http://localhost:3001';
+const API_BASE_URL = 'https://elemental-backend-lcs5.onrender.com';
 
 const BookingPage = ({ socket, user }) => {
   const navigate = useNavigate();
