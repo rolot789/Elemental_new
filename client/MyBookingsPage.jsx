@@ -16,7 +16,7 @@ import {
   AlertDialogTrigger,
 } from '@/components/ui/alert-dialog';
 
-const API_BASE_URL = 'http://localhost:3001';
+const API_BASE_URL = 'https://elemental-backend-lcs5.onrender.com';
 
 const MyBookingsPage = ({ user }) => {
   const [bookings, setBookings] = useState([]);
